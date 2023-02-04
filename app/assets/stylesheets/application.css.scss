@@ -20,9 +20,23 @@
 h1, h2 , h3 {
     font-family: 'Roboto', sans-serif;
 }
-body, .navbar {
+.navbar, .home-callout {
     background: #ED213A;  /* fallback for old browsers */
     background: linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 
+.navbar {
+    border: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: -20px;
+    margin-top: -5px;
+}
+
+.home-callout {
+    color: white;
+    margin-top: -20px;
+    padding-top: 50px;
+    padding-bottom: 100px;
 }
