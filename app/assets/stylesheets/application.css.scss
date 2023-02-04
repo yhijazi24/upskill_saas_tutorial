@@ -34,6 +34,25 @@ h1, h2 , h3 {
     margin-top: -5px;
 }
 
+.navbar-brand {
+    color: white;
+    font-size: 22px;
+}
+
+.nav-link {
+    color: white;
+    font-size: 15px;
+}
+
+.navbar-brand:hover {
+    color: white;
+    opacity: 0.75;
+}
+
+.nav-link:hover {
+    color: white;
+    opacity: 0.75;
+}
 .home-callout {
     color: white;
     margin-top: -20px;
