@@ -39,6 +39,7 @@ h1, h2 , h3 {
 }
 
 .navbar-brand {
+    padding-left: 60px;
     color: white;
     font-size: 22px;
     &:hover {
@@ -54,6 +55,10 @@ h1, h2 , h3 {
         color: white;
         opacity: 0.75;
     }
+}
+
+.navbar-nav > li > a {
+    padding-bottom: 10px;
 }
 
 // Home Page Styles
