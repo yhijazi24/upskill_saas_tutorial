@@ -29,11 +29,16 @@
           <li class="nav-item" >
             <%= link_to new_contact_path , class: "nav-link" do %>
               Contact Us
-            <% end %>
+             <% end %>
           </li>
         </ul>
       </div>
     </nav>
+    <div class="alert">
+      <% flash.each do |type, msg| %>
+        <%= content_tag :div, msg, class: "alert alert-#{type}" %>
+      <% end %>
+    </div>
     <%= yield %>
   </body>
 </html>
