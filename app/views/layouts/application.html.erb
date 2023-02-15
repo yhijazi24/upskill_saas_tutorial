@@ -34,7 +34,7 @@
         </ul>
       </div>
     </nav>
-    <div class="alert">
+    <div class="alert" style=" margin-top: 10px;">
       <% flash.each do |type, msg| %>
         <%= content_tag :div, msg, class: "alert alert-#{type}" %>
       <% end %>
